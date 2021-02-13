@@ -247,6 +247,9 @@ input
 {
     margin: 5px;
 }
+h4{
+    font-weight: 0.5em;
+}
 .rooms img
 {
    border-top-left-radius: 25px;
@@ -288,7 +291,7 @@ input
     border: 2px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    width: 17.5em;
+    width: 18em;
     height: 14em;
 }
 .rooms figcaption p
@@ -314,8 +317,8 @@ input
 
 .aside img
 {
-    width: 8em;
-    height: 8em;
+    width: 45%;
+    height: auto;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
@@ -335,9 +338,9 @@ aside
     flex-direction: column;
     background: #F2F2F2;
     border-radius: 25px;
-    float: right;
-    width: 25em;
-    height: auto;
+    float: left;
+    width: 25%;
+    height: 100%;
    
 }
 .aside-title
@@ -362,12 +365,12 @@ aside
     box-shadow: 4px 4px 6px #aaa;
     margin: 10px 20px;
 }
-#aside
+#contain-aside
 {
     display: flex;
     flex-direction: column;
 }
-#aside a
+#contain-aside a
 {
     text-decoration: none;
     color: black;
@@ -624,7 +627,7 @@ aside
        margin: 0;
        width: 100%;
     }
-    #aside
+    #contain-aside
     {
         width: 100%;
     }
