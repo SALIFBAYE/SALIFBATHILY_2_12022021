@@ -86,7 +86,7 @@ li:focus
 
 .main-container
 {
-    max-width: 100%;
+    max-width: auto;
 }
 /* MAIN TITLE */
 
