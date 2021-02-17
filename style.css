@@ -214,14 +214,14 @@ input
 }
 /* ROOMS */
 
-#container
+#rooms
 {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 0 20px;
 }
-#rooms
+.rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
@@ -625,7 +625,7 @@ height: 185px;
   .info {
       padding: 10px 0;
   }
-   #container
+   .rooms
    {
        display: flex;
        flex-direction: column;
@@ -652,7 +652,7 @@ height: 185px;
     {
         width: auto;
     }
-    #rooms
+    .rooms
     {
        display: flex;
        flex-direction: column;
@@ -743,7 +743,7 @@ height: 185px;
     body {
         width: 100%;
     }
-    #container
+    #rooms
     {
        display: flex;
        flex-direction: column;
@@ -755,7 +755,7 @@ height: 185px;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
-    #rooms {
+    .rooms {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -785,7 +785,7 @@ height: 185px;
         max-width: 100rem;
         margin:auto;
     }
-    #rooms {
+    .rooms {
         margin-right: 15px;
     }
     .main-container {
