@@ -1,5 +1,3 @@
-/* FEUILLE DE STYLE SITE RESERVIA */
-
 body
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -151,7 +149,8 @@ input
 {
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 42px;
+    padding: 10 12px;  
 }
 .price:hover, .family:hover, .romantic:hover, .animal:hover
 {
@@ -198,6 +197,7 @@ input
 {
     display: flex;
     align-items: center;
+    padding: 28px 0 28px 0px;
 }
 .fa-info
 {
@@ -219,21 +219,22 @@ input
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 40px;
+    padding: 0 38px;
 }
-.contain-rooms
+.rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 68%;
+    width: 69%;
 }
-#main-rooms
+.contain-rooms
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0 5px;
+    padding: 0 10px;
 }
 
 .content-rooms
@@ -241,7 +242,7 @@ input
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     transition: transform 1s;
 }
 .content-rooms p, .content-rooms h4
@@ -265,7 +266,7 @@ h4{
 }
 .rooms-title
 {
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0px 20px 34px;
     font-weight: bold;
     font-size: 1em;
 }
@@ -292,7 +293,7 @@ h4{
     border: 2px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    width: 15em;
+    width: 16em;
     height: 13em;
 }
 .content-rooms figcaption p
@@ -311,21 +312,27 @@ h4{
 }
 .more
 {
-  padding: 20px;
+  padding: 26px 32px;
 }
 
 /* ASIDE */
 
 .content-aside img
 {
-    width: 54%;
+    width: 60%;
     height: auto;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
+    
 }
-
-
+.content-aside  
+{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
 
 aside
 {
@@ -358,7 +365,7 @@ aside
     border: 4px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    margin: 15px 20px;
+    margin: 10px 20px;
 }
 #contain-aside
 {
@@ -373,11 +380,11 @@ aside
 .content-aside figcaption
 {
     padding-left: 5px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .content-aside figcaption h4
 {
-    margin: px 2px;
+    margin: 5px 2px;
 }
 .content-aside figcaption p
 {
@@ -470,7 +477,7 @@ height: 185px;
 
 #footer
 {
-   margin-top: 50px;
+   margin-top: 40px;
    background: #F2F2F2;
    display: -o-flexblox;
    display: -ms-flexbox;
@@ -620,7 +627,7 @@ height: 185px;
   .info {
       padding: 10px 0;
   }
-   .contain-rooms
+   .rooms
    {
        display: flex;
        flex-direction: column;
@@ -647,7 +654,7 @@ height: 185px;
     {
         width: auto;
     }
-    .contain-rooms
+    .rooms
     {
        display: flex;
        flex-direction: column;
@@ -664,12 +671,12 @@ height: 185px;
     {
         margin-left: 15px;
     }
-    .contain-rooms
+    .rooms
     {
         
         padding: 10px;
     }
-    .contain-rooms img
+    .rooms img
     {
         object-fit: cover;
         width: 100%;
@@ -682,7 +689,7 @@ height: 185px;
     #activities
     {
        width: 100%;
-       padding:30px;
+       margin: 0;
     }
     #activities {
         display: flex;
@@ -750,7 +757,7 @@ height: 185px;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
-    .contain-rooms {
+    .rooms {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -780,7 +787,7 @@ height: 185px;
         max-width: 100rem;
         margin:auto;
     }
-    .contain-rooms {
+    .rooms {
         margin-right: 15px;
     }
     .main-container {
