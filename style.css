@@ -421,13 +421,25 @@ aside
 {
     height: 450px;
 }
-.pomegues img, .dame img, .longchamp img
+.pomegues img
 {
-    height: 200px;
+height: 250px;
 }
-.frioul img, .longchamp img
+.dame img
 {
-    height: 170px;
+height: 185px;        
+}
+.frioul img
+{
+height: 190px;
+}
+.longchamp img
+{
+height: 185px;
+}
+.frioul img
+{
+    height: 120px;
     align-content: center;
 }
 #main-visit a 
