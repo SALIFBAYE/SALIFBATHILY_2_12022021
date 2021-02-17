@@ -219,13 +219,13 @@ input
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 40px;
 }
-.rooms
+.contain-rooms
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 70%;
+    width: 68%;
 }
 #main-rooms
 {
@@ -241,7 +241,7 @@ input
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     transition: transform 1s;
 }
 .content-rooms p, .content-rooms h4
@@ -292,8 +292,8 @@ h4{
     border: 2px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    width: 18em;
-    height: 14em;
+    width: 15em;
+    height: 13em;
 }
 .content-rooms figcaption p
 {
@@ -318,20 +318,14 @@ h4{
 
 .content-aside img
 {
-    width: 55%;
+    width: 54%;
     height: auto;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
-    
 }
-.content-aside  
-{
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
+
+
 
 aside
 {
@@ -364,7 +358,7 @@ aside
     border: 4px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    margin: 10px 20px;
+    margin: 15px 20px;
 }
 #contain-aside
 {
@@ -469,13 +463,13 @@ height: 185px;
 }
 .activities
 {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 /* FOOTER */
 
 #footer
 {
-   margin-top: 40px;
+   margin-top: 50px;
    background: #F2F2F2;
    display: -o-flexblox;
    display: -ms-flexbox;
@@ -625,7 +619,7 @@ height: 185px;
   .info {
       padding: 10px 0;
   }
-   .rooms
+   .contain-rooms
    {
        display: flex;
        flex-direction: column;
@@ -652,7 +646,7 @@ height: 185px;
     {
         width: auto;
     }
-    .rooms
+    .contain-rooms
     {
        display: flex;
        flex-direction: column;
@@ -669,12 +663,12 @@ height: 185px;
     {
         margin-left: 15px;
     }
-    .rooms
+    .contain-rooms
     {
         
         padding: 10px;
     }
-    .rooms img
+    .contain-rooms img
     {
         object-fit: cover;
         width: 100%;
@@ -687,7 +681,7 @@ height: 185px;
     #activities
     {
        width: 100%;
-       margin: 0;
+       padding:30px;
     }
     #activities {
         display: flex;
@@ -755,7 +749,7 @@ height: 185px;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
-    .rooms {
+    .contain-rooms {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -785,7 +779,7 @@ height: 185px;
         max-width: 100rem;
         margin:auto;
     }
-    .rooms {
+    .contain-rooms {
         margin-right: 15px;
     }
     .main-container {
