@@ -242,7 +242,7 @@ input
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 23px;
     transition: transform 1s;
 }
 .content-rooms p, .content-rooms h4
@@ -266,7 +266,7 @@ h4{
 }
 .rooms-title
 {
-    padding: 20px 0px 20px 34px;
+    padding: 20px 0px 20px 29px;
     font-weight: bold;
     font-size: 1em;
 }
@@ -351,7 +351,7 @@ aside
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 20px;
+    padding:20px 26px 20px 29px;
     font-size: 1em;
 }
 .aside p
@@ -365,7 +365,7 @@ aside
     border: 4px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    margin: 10px 20px;
+    margin: 19px 20px;
 }
 #contain-aside
 {
