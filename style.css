@@ -351,7 +351,7 @@ aside
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding:20px 26px 20px 29px;
+    padding:20px 26px 2px 29px;
     font-size: 1em;
 }
 .aside p
@@ -384,7 +384,7 @@ aside
 }
 .content-aside figcaption h4
 {
-    margin: 5px 2px;
+    
 }
 .content-aside figcaption p
 {
