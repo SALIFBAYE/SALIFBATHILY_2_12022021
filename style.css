@@ -294,7 +294,7 @@ h4{
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
     width: 16em;
-    height: 13em;
+    height: 15em;
 }
 .content-rooms figcaption p
 {
@@ -319,7 +319,7 @@ h4{
 
 .content-aside img
 {
-    width: 60%;
+    width: 125px;
     height: auto;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -380,7 +380,6 @@ aside
 .content-aside figcaption
 {
     padding-left: 5px;
-    font-size: 0.8em;
 }
 
 .content-aside figcaption p
