@@ -382,10 +382,7 @@ aside
     padding-left: 5px;
     font-size: 0.8em;
 }
-.content-aside figcaption h4
-{
-    
-}
+
 .content-aside figcaption p
 {
     margin-top: 5px;
@@ -400,6 +397,7 @@ aside
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 35px 0;
     }
 #main-visit
 {
@@ -490,7 +488,7 @@ height: 185px;
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 0 43px;
     width: 50%;
 }
 .footer a
