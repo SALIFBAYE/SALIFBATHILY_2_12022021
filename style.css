@@ -341,7 +341,6 @@ aside
     background: #F2F2F2;
     border-radius: 25px;
     float: left;
-    width: 29%;
     height: 100%;
    
 }
@@ -522,10 +521,14 @@ height: 185px;
         margin: 0;
         width: 100%;
     }  
-    .logo {
+    .logo
+    {
     display: flex;
     align-items: flex-end;
-} 
+    padding:0 9px 64px 0px;
+    margin-top: 50px;
+    margin-left: 15px;
+    } 
      h1
     {
         margin: 0;
@@ -540,7 +543,7 @@ height: 185px;
     nav ul
     {
         padding: 0;
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 4px solid #F2F2F2;
         width: 100%;
        
      }
@@ -550,6 +553,8 @@ height: 185px;
         justify-content: space-around;
         align-items: center;
         width: 100%;
+        margin-top: 12px;
+        margin-right: 26px;
      }
     li
     {
@@ -624,12 +629,12 @@ height: 185px;
   .info {
       padding: 10px 0;
   }
-   .rooms
+   #rooms
    {
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-       padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
    }
    aside
    {
