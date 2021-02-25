@@ -341,8 +341,8 @@ aside
     background: #F2F2F2;
     border-radius: 25px;
     float: left;
-    height: 100%;
-    width: 29%;
+    height: auto;
+    width: 23em;
    
 }
 .aside-title
@@ -600,7 +600,7 @@ height: 185px;
     }
    .main-container
     {
-       width: 100%;
+       width: min-content;
     }
    #menu
    {
@@ -643,7 +643,8 @@ height: 185px;
        padding: 0;
        border-radius: 0;
        margin: 0;
-       width: 100%;
+       width: max-content;
+       padding: ;
     }
     #contain-aside
     {
