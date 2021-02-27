@@ -40,7 +40,7 @@ body
 text-decoration: none;
 
 }
-.menu a:hover
+.navbar a:hover
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
@@ -64,6 +64,8 @@ text-decoration: none;
 {
     color: #0065FC;
     font-weight: bold;
+    padding: 30px;
+
 }
 .sign-in a:hover
 {
