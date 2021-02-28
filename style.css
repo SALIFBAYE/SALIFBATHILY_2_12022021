@@ -1,16 +1,71 @@
 body
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    margin: 0;
-    font-weight: 0.7px;
+    font-family: Releway, serif;
+    width: 100%;
+    margin: auto;    
 }
 *
 {
     box-sizing: border-box;
 }
-/* HEADER */
+/* HEADER*/
+.container-logo-inscription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 90px;
+}
 
+
+.nav-element1 a{
+    text-decoration: none;
+    color:#0065FC ;
+    font-size: 1.2em;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.nav-element, .nav-element2{
+    position: relative;
+    bottom: 56px; 
+}
+
+.nav-element a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+   /* padding-left: 85px;*/
+    padding: 30px;
+
+}
+.nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+    border-top: 5px solid #0065FC;
+    padding-top: 30px;
+    
+}
+
+.nav-element2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    /*padding-left: 85px;*/
+    padding: 30px;
+   
+}
+
+.container-link-reverse{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 200px;
+    
+}
+
+/*
 .header
 {
    width: 100%;
@@ -561,12 +616,131 @@ height: 185px;
 
 @media screen and (max-width: 768px)
 {
-    body 
+    .inscription-link
+    {
+        padding: 42px;
+    }
+
+    .container-link-reverse{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: 35px;
+        width: 100%;
+        padding: 2px 2px;
+
+    }
+    .container-logo-inscription img{
+        padding: 4px;
+        
+    }
+
+    .nav-element1 a{
+        text-decoration: none;
+        color: #0065FC;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+    }
+
+    nav{
+        margin: 0;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    .nav-element, .nav-element2{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+        position: inherit;
+        bottom: inherit;
+    }
+    .nav-element:hover{
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+
+    }
+
+    .nav-element2:hover{
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+
+    } 
+    .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+        border-top: inherit;
+        padding-top: inherit;
+       
+    }   
+    /*body 
     {
         width: 100%;
         padding-top: 15px;
         overflow-x: hidden;
     }
+    .header
+    {
+        display: flex;
+        order: -1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        width: 100%
+    }
+    .sign-in
+    {
+        order: -2;
+        display: flex;
+        padding: 18%;
+    }
+    .navbar
+    {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4px
+    }
+    .logo
+    {
+    margin: 10px 5px;
+    padding: 10px 5px 93px 13px;
+    }
+    .menu
+    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    }
+    li
+    {
+        text-align: center;
+        flex-basis: 50%;
+    }
+    .menu-heberg
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    /*
     .header
     {
         display: flex;
@@ -579,9 +753,10 @@ height: 185px;
     {
     display: flex;
     align-items: flex-end;
-    padding:0 9px 64px 0px;
+    padding:0px 190px 62px 0px;
     margin-top: 50px;
     margin-left: 15px;
+
     } 
      h1
     {
@@ -625,6 +800,7 @@ height: 185px;
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
+    */
     #search
     {
         padding-left: 15px;
@@ -645,22 +821,15 @@ height: 185px;
     {
         color: #ffffff;
     }
-    .sign-in
+    #main-title h2
     {
-       order: -2;
-       display: flex;
-       padding-top: 40px;
+        margin-top: 25px;
     }
    .main-container
     {
        width: min-content;
     }
-   .header
-   {
-       display: flex;
-       justify-content: flex-end;
-       flex-flow: row wrap;
-   }
+   
    #filter
    {
        padding-left: 15px;
@@ -680,7 +849,8 @@ height: 185px;
    .price, .family, .romantic, .animal {
        margin-bottom: 10px;
    }
-  .info {
+  .info 
+  {
       padding: 10px 0;
   }
    #rooms
