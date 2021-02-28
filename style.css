@@ -611,8 +611,7 @@ height: 185px;
 .footer h4
 {
     font-weight: bold;
-}
-/*                                                              MEDIA QUERIES                                                               */
+}                                                             MEDIA QUERIES                                                               */
 
 @media screen and (max-width: 768px)
 {
@@ -689,118 +688,7 @@ height: 185px;
         padding-top: inherit;
        
     }   
-    /*body 
-    {
-        width: 100%;
-        padding-top: 15px;
-        overflow-x: hidden;
-    }
-    .header
-    {
-        display: flex;
-        order: -1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        width: 100%
-    }
-    .sign-in
-    {
-        order: -2;
-        display: flex;
-        padding: 18%;
-    }
-    .navbar
-    {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 4px
-    }
-    .logo
-    {
-    margin: 10px 5px;
-    padding: 10px 5px 93px 13px;
-    }
-    .menu
-    {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    }
-    li
-    {
-        text-align: center;
-        flex-basis: 50%;
-    }
-    .menu-heberg
-    {
-        display: flex;
-        justify-content: flex-start;
-    }
-    /*
-    .header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        width: 100%;
-    }  
-    .logo
-    {
-    display: flex;
-    align-items: flex-end;
-    padding:0px 190px 62px 0px;
-    margin-top: 50px;
-    margin-left: 15px;
-
-    } 
-     h1
-    {
-        margin: 0;
-        width: 50%;
-        position: absolute;
-        padding-left: 15px;
-    }
-    .header, .navbar
-    {
-        width: 100%;
-    }
-    .menu ul
-    {
-        padding: 0;
-        border-bottom: 4px solid #F2F2F2;
-        width: 100%;
-       
-     }
-     .menu
-     {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        margin-top: 12px;
-        margin-right: 26px;
-     }
-    li
-    {
-        text-align: center;
-        flex-basis: 50%;
-    }
-    li:hover
-    {
-        border-bottom: 3px solid #0065FC;
-        border-top: none;
-    }
-    li:focus
-    {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-    }
-    */
+    /*body*/
     #search
     {
         padding-left: 15px;
