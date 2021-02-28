@@ -881,6 +881,10 @@ height: 185px;
     {
         width: auto;
     }
+    .content-aside img
+    {
+        width: 100%;
+    }
     .rooms
     {
        display: flex;
