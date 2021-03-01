@@ -65,130 +65,6 @@ body
     
 }
 
-/*
-.header
-{
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
-   align-items: center;
-}
-.logo 
-{
-    display: flex;
-    align-items: flex-start;
-    margin: 10px 5px;
-    padding-left: 42px;
-}
-.navbar
-{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 0 38px;
-
-
-}
-.navbar a
-{
-text-decoration: none;
-
-}
-.navbar a:hover
-{
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
-.menu
-{
-    display: flex;
-    align-items: center;
-    list-style-type:none;
-    padding: 30px;
-
-}
-.menu a
-{
-    margin: 20px;
-    padding: 25px;
-    color: black;
-
-}
-.sign-in
-{
-    color: #0065FC;
-    font-weight: bold;
-    padding: 30px;
-
-}
-.sign-in a:hover
-{
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
-/*
-.navbar
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.logo {
-    display: flex;
-    align-items: flex-start;
-    margin: 10px 5px;
-    padding-left: 42px;
-}
-h1{
-    padding-left: 50px;
-}  
-
- .menu
-{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 20px;
-    color: black;
-    display: flex;
-} 
-
-.header
-{
-    display: flex;
-    justify-content: space-between;
-}
-li a:hover
-{
-    color: #0065FC;
-}
-li {
-    border-top: 3px solid #fff;
-}
-
-
-.sign-in
-{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    text-decoration: none;
-    flex-direction: row-reverse;
-}
-.sign-in a
-{
-    color: #0065FC;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 20px;
-}
-.sign-in, .menu a:hover
-{
-    color: #0065FC;
-    border-top: 3px solid #0065FC;
-}
-*/
 .main-container
 {
     max-width: auto;
@@ -689,118 +565,7 @@ height: 185px;
         padding-top: inherit;
        
     }   
-    /*body 
-    {
-        width: 100%;
-        padding-top: 15px;
-        overflow-x: hidden;
-    }
-    .header
-    {
-        display: flex;
-        order: -1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        width: 100%
-    }
-    .sign-in
-    {
-        order: -2;
-        display: flex;
-        padding: 18%;
-    }
-    .navbar
-    {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 4px
-    }
-    .logo
-    {
-    margin: 10px 5px;
-    padding: 10px 5px 93px 13px;
-    }
-    .menu
-    {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    }
-    li
-    {
-        text-align: center;
-        flex-basis: 50%;
-    }
-    .menu-heberg
-    {
-        display: flex;
-        justify-content: flex-start;
-    }
-    /*
-    .header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        width: 100%;
-    }  
-    .logo
-    {
-    display: flex;
-    align-items: flex-end;
-    padding:0px 190px 62px 0px;
-    margin-top: 50px;
-    margin-left: 15px;
-
-    } 
-     h1
-    {
-        margin: 0;
-        width: 50%;
-        position: absolute;
-        padding-left: 15px;
-    }
-    .header, .navbar
-    {
-        width: 100%;
-    }
-    .menu ul
-    {
-        padding: 0;
-        border-bottom: 4px solid #F2F2F2;
-        width: 100%;
-       
-     }
-     .menu
-     {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        margin-top: 12px;
-        margin-right: 26px;
-     }
-    li
-    {
-        text-align: center;
-        flex-basis: 50%;
-    }
-    li:hover
-    {
-        border-bottom: 3px solid #0065FC;
-        border-top: none;
-    }
-    li:focus
-    {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-    }
-    */
+    
     #search
     {
         padding-left: 15px;
@@ -827,7 +592,7 @@ height: 185px;
     }
    .main-container
     {
-       width: min-content;
+       width: 100%;
     }
    
    #filter
@@ -866,7 +631,8 @@ height: 185px;
        padding: 0;
        border-radius: 0;
        margin: 0;
-       width: max-content;
+       width: 100%;
+
     }
     #contain-aside
     {
@@ -876,14 +642,7 @@ height: 185px;
     {
         margin: 0;
     }
-    .aside figure
-    {
-        width: auto;
-    }
-    .content-aside img
-    {
-        width: 100%;
-    }
+    
     .rooms
     {
        display: flex;
@@ -965,6 +724,7 @@ height: 185px;
    .footer
    {
        padding-left: 20px;
+       margin: 32px 10px;
    }
    .footer a
    {
