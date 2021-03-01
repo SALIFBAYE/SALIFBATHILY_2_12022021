@@ -827,7 +827,7 @@ height: 185px;
     }
    .main-container
     {
-       width: min-content;
+       width: 100%;
     }
    
    #filter
@@ -867,7 +867,7 @@ height: 185px;
        border-radius: 0;
        margin: 0;
        width: max-content;
-       padding: ;
+
     }
     #contain-aside
     {
@@ -877,10 +877,7 @@ height: 185px;
     {
         margin: 0;
     }
-    .aside figure
-    {
-        width: auto;
-    }
+    
     .rooms
     {
        display: flex;
