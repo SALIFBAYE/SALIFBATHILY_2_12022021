@@ -724,6 +724,7 @@ height: 185px;
    .footer
    {
        padding-left: 20px;
+       margin: 32px 10px;
    }
    .footer a
    {
