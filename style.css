@@ -303,8 +303,8 @@ h4{
 
 .content-aside img
 {
-    width: 109px;
-    height: auto;
+    width: 8em;
+    height: 10em;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
