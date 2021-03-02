@@ -209,6 +209,7 @@ input
     background: #F2F2F2;
     border-radius: 25px;
     width: 69%;
+    height: auto;
 }
 .contain-rooms
 {
