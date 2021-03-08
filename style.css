@@ -824,15 +824,11 @@ height: 185px;
         max-width: 100rem;
         margin:auto;
     }
-    .rooms {
-        margin-right: 15px;
+    .rooms 
+    {
+        margin-right: 24px;
     }
-    /*
-    .main-container {
-        max-width: 100rem;
-        margin: auto;
-    }
-    */
+   
     #main-rooms {
         margin: 10px;
     }
