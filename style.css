@@ -220,6 +220,7 @@ input
     flex-wrap: wrap;
     margin: 0 5px;
     padding: 0 10px;
+    width: 100%;
 }
 
 .content-rooms
@@ -812,6 +813,7 @@ height: 185px;
 
     }
 }
+
 @media screen and (min-width: 1300px) and (max-width: 1599px) {
     body {
         width: 100%;
