@@ -815,7 +815,8 @@ height: 185px;
 }
 */
 
-@media screen and (min-width: 769px) and (max-width: 1599px) {
+@media screen and (min-width: 769px) 
+ {
     body {
         width: 100%;
     }
@@ -826,10 +827,12 @@ height: 185px;
     .rooms {
         margin-right: 15px;
     }
+    /*
     .main-container {
         max-width: 100rem;
         margin: auto;
     }
+    */
     #main-rooms {
         margin: 10px;
     }
@@ -847,6 +850,7 @@ height: 185px;
     #main-visit img
     {
         width: 100%;
+        
     }
     footer {
         max-width: 100rem;
@@ -861,7 +865,8 @@ height: 185px;
     }
 }
 /*
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1600px) 
+{
     body {
         margin: auto;
         overflow-x: hidden;
