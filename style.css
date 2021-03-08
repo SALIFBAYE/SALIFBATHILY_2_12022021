@@ -64,10 +64,7 @@ body
     
 }
 
-.main-container
-{
-    max-width: auto;
-}
+
 /* MAIN TITLE */
 
 #main-title p
@@ -133,7 +130,7 @@ input
     display: flex;
     align-items: center;
     margin-top: 42px;
-    padding: 10 12px;  
+    padding: 12px;  
 }
 .price:hover, .family:hover, .romantic:hover, .animal:hover
 {
@@ -233,9 +230,7 @@ input
 {
     margin: 3px;
 }
-h4{
-    font-weight:3px;
-}
+
 .content-rooms img
 {
    border-top-left-radius: 25px;
@@ -844,7 +839,6 @@ height: 185px;
 }
 @media screen and (min-width: 1600px) {
     body {
-        body: 100%;
         margin: auto;
         overflow-x: hidden;
     }
