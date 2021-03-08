@@ -395,7 +395,7 @@ aside
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
-    width: 100%;
+    width: 300px;
     margin: auto;
       opacity: 1;
 	-webkit-transition: .3s ease-in-out;
@@ -493,6 +493,13 @@ height: 185px;
 
 @media screen and (max-width: 768px)
 {
+    body
+    {
+    width: 100%;
+    padding-top: 15px;
+    overflow-x: hidden;
+
+    }
     .inscription-link
     {
         padding: 42px;
@@ -619,6 +626,10 @@ height: 185px;
   {
       padding: 10px 0;
   }
+  .main-container
+  {
+      margin: 0;
+  }
    #rooms
    {
     display: flex;
@@ -717,7 +728,7 @@ height: 185px;
        display: flex;
        flex-direction: column;
        padding-bottom: 10px;
-       width: 1000px;
+       width: 100%;
     }
    .footer
    {
@@ -729,6 +740,7 @@ height: 185px;
        padding: 5px;
    }
 }
+
 @media screen and (min-width: 769px) and (max-width: 1299px) {
     body 
     {
@@ -815,7 +827,7 @@ height: 185px;
         width: 100%;
     }
     #main-visit figure {
-         margin: 13px 10px;
+         margin: 10px;
     }
     footer {
         max-width: 100rem;
