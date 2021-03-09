@@ -395,7 +395,7 @@ aside
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
-    width: 300px;
+    width: 100%;
     margin: auto;
       opacity: 1;
 	-webkit-transition: .3s ease-in-out;
@@ -880,3 +880,4 @@ height: 185px;
         margin:auto;
     }
 }
+*/
