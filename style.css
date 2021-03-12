@@ -304,7 +304,7 @@ input
 .content-aside img
 {
     width: 8em;
-    height: 10em;
+    height: 162px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
@@ -403,7 +403,7 @@ aside
 }
 .vieuxp img, .calanques img
 {
-    height: 450px;
+    height: 446px;
 }
 .pomegues img
 {
@@ -465,7 +465,7 @@ height: 185px;
    display: -ms-flexbox;
    display: flex;
    width: 100%;
- }
+}
 .footer
 {
     display: -o-flexblox;
@@ -559,6 +559,7 @@ height: 185px;
         padding-bottom: 50px;
         position: inherit;
         bottom: inherit;
+        margin-bottom: -3px;
     }
     .nav-element:hover{
         border-bottom: 3px solid #0065FC; 
@@ -617,6 +618,7 @@ height: 185px;
        display: flex;
        flex-wrap: wrap;
        justify-content: space-between;
+       width: 100%;
    }
    .filter-title
    {
@@ -634,6 +636,10 @@ height: 185px;
   {
       width: 100%;
       height: 220px;
+  }
+  .contain-rooms
+  {
+      padding: 0;
   }
   .main-container
   {
@@ -664,7 +670,10 @@ height: 185px;
     {
         margin: 0;
     }
-    
+    .content-aside img
+    {
+        height: 200px;
+    }
     .rooms
     {
        display: flex;
@@ -710,6 +719,7 @@ height: 185px;
        display: flex;
        flex-direction: column;
        width: 100%;
+       padding: 0;
     }
     #main-visit figure
    {
@@ -741,6 +751,7 @@ height: 185px;
    {
        padding-left: 20px;
        margin: 32px 10px;
+       width: 100%;
    }
    .footer a
    {
@@ -814,8 +825,60 @@ height: 185px;
     }
 }
 */
+@media screen and (min-width: 769px) and (max-width: 1299px)
+{
+    body {
+        width: 100%;
+    }
+    .header {
+        max-width: 100rem;
+        margin:auto;
+    }
+    .filter
+    {
+        font-size: 12px;
 
-@media screen and (min-width: 769px) 
+    }
+    .rooms 
+    {
+        margin-right: 24px;
+    }
+   
+    #main-rooms {
+        margin: 10px;
+    }
+    #main-visit {
+        width: 100%;
+         padding: 0 38px;
+    }
+    #main-visit a   
+    {
+        width: 100%;
+    }
+    #main-visit figure {
+         margin: 10px;
+    }
+    #main-visit img
+    {
+        width: 100%;
+        
+    }
+    footer {
+        max-width: 100rem;
+        margin:auto;
+    }
+    .content-aside img
+    {
+    width: 107px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+    height: 220px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) 
  {
     body {
         width: 100%;
@@ -827,6 +890,31 @@ height: 185px;
     .rooms 
     {
         margin-right: 24px;
+    }
+    .vieuxp img, .calanques img
+    {
+        height: 446px;
+    }
+    .pomegues img
+    {
+    height: 250px;
+    }
+    .dame img
+    {
+    height: 185px;        
+    }
+    .frioul img
+    {
+    height: 190px;
+    }
+    .longchamp img
+    {
+    height: 185px;
+    }
+    .frioul img
+    {
+        height: 120px;
+        align-content: center;
     }
    
     #main-rooms {
