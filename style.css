@@ -762,7 +762,7 @@ height: 185px;
    }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1299px) {
+@media screen and (min-width: 769px) and (max-width: 1050px) {
     body 
     {
         width: 100%;
