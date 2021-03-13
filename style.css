@@ -326,7 +326,6 @@ aside
     border-radius: 25px;
     float: left;
     height: auto;
-    width: 23em;
    
 }
 .aside-title
@@ -491,7 +490,7 @@ height: 185px;
 }
 /*                                                              MEDIA QUERIES                                                               */
 
-@media screen and (max-width: 827px)
+@media screen and (max-width: 769px)
 {
     body
     {
@@ -825,7 +824,7 @@ height: 185px;
     }
 }
 */
-@media screen and (min-width: 828px) and (max-width: 1129px)
+@media screen and (min-width: 770px) and (max-width: 1129px)
 {
     body {
         width: 100%;
