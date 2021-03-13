@@ -492,7 +492,7 @@ height: 185px;
 }
 /*                                                              MEDIA QUERIES                                                               */
 
-@media screen and (max-width: 769px)
+@media screen and (max-width: 768px)
 {
     body
     {
@@ -760,7 +760,7 @@ height: 185px;
        padding: 5px;
    }
 }
-/*
+
 @media screen and (min-width: 769px) and (max-width: 1299px) {
     body 
     {
@@ -826,7 +826,7 @@ height: 185px;
 
     }
 }
-
+/*
 @media screen and (min-width: 828px) and (max-width: 930px)
 {
     body {
@@ -983,3 +983,4 @@ height: 185px;
     
 
 }
+*/
