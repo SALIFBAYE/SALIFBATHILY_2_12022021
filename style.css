@@ -379,7 +379,7 @@ aside
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 35px 0;
+        padding:0 38px;
     }
 #main-visit
 {
@@ -387,7 +387,6 @@ aside
     display: -ms-flexbox;
     display: flex;
     justify-content: center;
-    padding: 0 26px;
 }
 #main-visit img
 {
@@ -450,10 +449,7 @@ height: 185px;
 {
     opacity: .5;
 }
-.activities
-{
-    padding-left: 40px;
-}
+
 /* FOOTER */
 
 #footer
@@ -853,7 +849,6 @@ height: 185px;
     }
     #main-visit {
         width: 100%;
-         padding: 0 38px;
     }
     #main-visit a   
     {
@@ -935,25 +930,22 @@ height: 185px;
         align-content: center;
     }
    
-    #main-rooms {
+    #main-rooms
+    {
         margin: 10px;
     }
-    #main-visit {
-        width: 100%;
-         padding: 0 38px;
-    }
-    #main-visit a   
+    #main-visit 
     {
         width: 100%;
     }
+    
     #main-visit figure {
          margin: 10px;
     }
-    #main-visit img
-    {
-        width: 300px;
-        
-    }
+   .activities
+   {
+       padding: 14px;
+   }
     footer {
         max-width: 100rem;
         margin:auto;
