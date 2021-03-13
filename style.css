@@ -209,7 +209,7 @@ input
 {
     background: #F2F2F2;
     border-radius: 25px;
-    width: 69%;
+    width: 70%;
     height: auto;
 }
 .contain-rooms
@@ -308,7 +308,7 @@ input
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
-    
+    height: 10em;
 }
 .content-aside  
 {
@@ -326,7 +326,8 @@ aside
     border-radius: 25px;
     float: left;
     height: auto;
-    width: 23em;
+    margin-left: 15px;
+    width: 29%;
    
 }
 .aside-title
@@ -349,7 +350,7 @@ aside
     border: 4px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
-    margin: 17px 20px;
+    margin: 17px 10px;
 }
 #contain-aside
 {
@@ -948,6 +949,7 @@ height: 185px;
     height: 13em;
     }
 }
+
 @media screen and (min-width: 1026px) 
 {
     body {
@@ -968,15 +970,13 @@ height: 185px;
     }
     .content-aside img
     {
-    width: 107px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
-    height: 11em;
+    height: 161px;
     }
     .aside
     {
-        margin-left: 10%;
     }
    
     
