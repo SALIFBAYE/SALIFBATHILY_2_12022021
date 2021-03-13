@@ -873,7 +873,7 @@ height: 185px;
     }
     .content-aside img
     {
-    width: 30%;    
+    width: 40%;    
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
@@ -951,7 +951,7 @@ height: 185px;
     }
     #main-visit img
     {
-        width: 100%;
+        width: 300px;
         
     }
     footer {
