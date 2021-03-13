@@ -698,20 +698,20 @@ height: 185px;
         padding-left: 15px;
         margin: 0;
     }
-    #activities
-    {
-       width: 100%;
-       margin: 0;
-    }
+    
     #activities {
+        width: 100%;
+        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: inherit;
    }
    .activities
    {
        padding-left: 23px;
    }
+
    
     #main-visit
     {
@@ -935,6 +935,10 @@ height: 185px;
         margin: 10px;
     }
     #main-visit 
+    {
+        width: 100%;
+    }
+    #main-visit img
     {
         width: 100%;
     }
