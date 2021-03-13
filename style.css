@@ -308,7 +308,8 @@ input
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
-    height: 10em;
+    height: 11em;
+    width: 9em;
 }
 .content-aside  
 {
