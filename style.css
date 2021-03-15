@@ -118,7 +118,7 @@ input
 .search-button
 {
     cursor: pointer;
-    border: 10px solid #0065FC;
+    border: 10px solid transparent;
     background: #0065FC;
     color: #ffffff;
     border-top-right-radius: 15px;
@@ -166,7 +166,7 @@ input
 {
     color: #0065FC;
     background: #DEEBFF;
-    border: 13px solid #DEEBFF;
+    border: 13px solid transparent;
     border-radius: 100%;
 }
 .price h3, .family h3, .romantic h3, .animal h3
@@ -277,7 +277,7 @@ input
 {
     margin: 0;
     background: #ffffff;
-    border: 2px solid #ffffff;
+    border: 2px solid transparent;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
     width: 16em;
@@ -347,7 +347,7 @@ aside
 {
     display: flex;
     background: #ffffff;
-    border: 4px solid #ffffff;
+    border: 4px solid transparent;
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
     margin: 17px 20px;
@@ -584,7 +584,7 @@ height: 185px;
     .search
     {
         background: #0065FC;
-        border: 10px solid #0065FC;
+        border: 10px solid transparent;
         border-radius: 10px;
         display: flex;
     }
