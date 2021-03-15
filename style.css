@@ -18,7 +18,7 @@ h4
     align-items: center;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 16px;
     height: 90px;
 }
 
@@ -34,6 +34,7 @@ h4
 .nav-element, .nav-element2{
     position: relative;
     bottom: 56px; 
+    padding-left: 40px;
 }
 
 .nav-element a{
@@ -46,7 +47,7 @@ h4
 }
 .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
 
-    border-top: 5px solid #0065FC;
+    border-top: 2px solid #0065FC;
     padding-top: 30px;
     color: #0065FC;
 }
@@ -67,7 +68,9 @@ h4
     padding-right: 200px;
     
 }
-
+nav{
+    padding-top: 20px;
+}
 
 /* MAIN TITLE */
 
@@ -557,13 +560,13 @@ height: 185px;
         margin-bottom: -3px;
     }
     .nav-element:hover{
-        border-bottom: 3px solid #0065FC; 
+        border-bottom: 2px solid #0065FC; 
         padding-bottom: 50px;
 
     }
 
     .nav-element2:hover{
-        border-bottom: 3px solid #0065FC; 
+        border-bottom: 2px solid #0065FC; 
         padding-bottom: 50px;
 
     } 
