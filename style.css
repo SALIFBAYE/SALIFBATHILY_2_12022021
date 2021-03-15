@@ -635,6 +635,7 @@ height: 185px;
   .contain-rooms
   {
       padding: 0;
+      margin: inherit;
   }
   .main-container
   {
