@@ -498,10 +498,7 @@ height: 185px;
     overflow-x: hidden;
 
     }
-    .inscription-link
-    {
-        padding: 42px;
-    }
+    
 
     .container-link-reverse{
         display: flex;
@@ -520,7 +517,9 @@ height: 185px;
         padding: 4px;
         
     }
-
+    nav{
+        padding-left: inherit;
+    }
     .nav-element1 a{
         text-decoration: none;
         color: #0065FC;
@@ -554,20 +553,21 @@ height: 185px;
     .nav-element, .nav-element2{
         width: 50%;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         position: inherit;
         bottom: inherit;
         margin-bottom: -3px;
+        padding-left: inherit;
     }
     .nav-element:hover{
         border-bottom: 2px solid #0065FC; 
-        padding-bottom: 50px;
+        padding-bottom: 30px;
 
     }
 
     .nav-element2:hover{
         border-bottom: 2px solid #0065FC; 
-        padding-bottom: 50px;
+        padding-bottom: 30px;
 
     } 
     .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
