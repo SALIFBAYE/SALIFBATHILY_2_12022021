@@ -620,6 +620,7 @@ height: 185px;
    }
    .price, .family, .romantic, .animal {
        margin-bottom: 10px;
+       margin-right: 8px;
    }
   .info 
   {
