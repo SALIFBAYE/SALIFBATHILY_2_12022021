@@ -731,11 +731,9 @@ height: 185px;
     }
     #main-visit img
     {
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        object-fit: cover;
-        width: 300px;
-        margin: auto;
+        
+        width: 100%;
+        height: 200px;
         opacity: 1;
     }
     #footer
