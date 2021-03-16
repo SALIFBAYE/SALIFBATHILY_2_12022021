@@ -664,9 +664,7 @@ height: 185px;
     {
         margin: 0;
     }
-    .content-aside img
-    {
-    }
+    
     .rooms
     {
        display: flex;
@@ -733,9 +731,12 @@ height: 185px;
     }
     #main-visit img
     {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
         object-fit: cover;
-        width: 100%;
-        height: 200px;
+        width: 300px;
+        margin: auto;
+        opacity: 1;
     }
     #footer
     {
