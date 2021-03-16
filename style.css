@@ -889,7 +889,7 @@ height: 185px;
 
 }
 
-@media screen and (min-width: 1130px) 
+@media screen and (min-width: 1130px)and  (max-width: 1559px)
  {
     body {
         width: 100%;
@@ -961,8 +961,8 @@ height: 185px;
     height: 10em;
     }
 }
-/*
-@media screen and (min-width: 1600px) 
+
+@media screen and (min-width: 1560px) 
 {
     body {
         margin: auto;
@@ -980,5 +980,8 @@ height: 185px;
         max-width: 100rem;
         margin:auto;
     }
+    #main-visit img
+    {
+        width: 300px;
+    }
 }
-*/
