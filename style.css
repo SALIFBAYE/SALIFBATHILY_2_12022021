@@ -939,12 +939,12 @@ height: 185px;
     }
     #main-visit img
     {
-        width: 100%;
+        width: 300px;
     }
     
     #main-visit figure {
-         margin: 10px;
-    }
+    margin: 13px 10px    }
+
    .activities
    {
        padding: 14px;
