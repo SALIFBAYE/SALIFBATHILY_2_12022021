@@ -642,8 +642,10 @@ height: 185px;
   }
   .contain-rooms
   { 
-      padding: 0;
-      margin: inherit;
+    display: flex;
+    flex-direction: column;  
+    padding: 0;
+    margin: inherit;
   }
   .main-container
   {
