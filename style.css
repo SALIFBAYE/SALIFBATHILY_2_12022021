@@ -847,10 +847,16 @@ height: 185px;
         font-size: 12px;
 
     }
+    #rooms{
+        display: flex;
+        flex-direction: column;
+    }
     .rooms 
     {
         margin-right: 24px;
-        width: 87%;
+        width: 100%;
+        background: none;
+
     }
    
     #main-rooms {
@@ -880,7 +886,6 @@ height: 185px;
     }
     .content-aside img
     {
-    width: 40%;    
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
@@ -889,6 +894,7 @@ height: 185px;
     .contain-rooms
     {
         display: flex;
+        flex-direction: column;
         background: none;
     }
     #activities{
@@ -898,6 +904,14 @@ height: 185px;
     
       width: 100%;
       height: 220px;
+    }
+    aside
+   {
+       order: -1;
+       padding: 0;
+       border-radius: 25px;
+       margin: 0;
+
     }
 
 
