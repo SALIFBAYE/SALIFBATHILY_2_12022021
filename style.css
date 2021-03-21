@@ -396,7 +396,7 @@ aside
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
-    width: 100%;
+    width: 300px;
     margin: auto;
       opacity: 1;
 	
@@ -855,7 +855,9 @@ height: 185px;
         margin: 10px;
     }
     #main-visit {
-        width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     }
     #main-visit a   
     {
@@ -864,9 +866,10 @@ height: 185px;
     #main-visit figure {
          margin: 10px;
     }
+    
     #main-visit img
     {
-        width: 100%;
+        width: 300px;
         
     }
     footer {
