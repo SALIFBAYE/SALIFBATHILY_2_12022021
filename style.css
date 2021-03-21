@@ -227,6 +227,7 @@ input
     width: 100%;
 }
 
+
 .content-rooms
 {
     border-radius: 25px;
@@ -654,6 +655,7 @@ height: 185px;
     padding: 0;
     width: 100%;
    }
+   
    aside
    {
        order: -1;
@@ -831,7 +833,7 @@ height: 185px;
     body {
         width: 100%;
     }
-    .header {
+    header {
         max-width: 100rem;
         margin:auto;
     }
