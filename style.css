@@ -944,10 +944,12 @@ height: 185px;
     {
         width: 100%;
     }
+    /*
     #main-visit img
     {
-        width: 292px;
+        width: 362px;
     }
+    */
     
     #main-visit figure {
     margin: 13px 10px    }
