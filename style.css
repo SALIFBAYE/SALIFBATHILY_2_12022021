@@ -1039,5 +1039,9 @@ height: 185px;
         max-width: 100rem;
         margin:auto;
     }
+    .rooms
+    {
+        margin-right: 15px ;
+    }
 }
 
