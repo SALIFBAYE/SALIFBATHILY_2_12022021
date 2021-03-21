@@ -976,13 +976,9 @@ height: 185px;
     #main-visit 
     {
         width: 100%;
+        justify-content: inherit;
     }
-    /*
-    #main-visit img
-    {
-        width: 362px;
-    }
-    */
+    
     
     #main-visit figure {
     margin: 13px 10px    }
