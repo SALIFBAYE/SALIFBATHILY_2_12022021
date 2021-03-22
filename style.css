@@ -528,6 +528,10 @@ height: 185px;
         padding:inherit;
         
     }
+    .om
+    {
+        font-size: 2px;
+    }
     .nav-element a{
         text-decoration: none;
         color: black;
@@ -608,6 +612,10 @@ height: 185px;
     border: 3px solid #F2F2F2;
     height: 4.5em;
     font-weight: bold;
+    margin-right: -5px;
+    border-top-width: 4px;
+    width: 244px;
+    padding-left: 12px;
     }
     .fa-map-marker-alt:before {
         content: "\f3c5";
