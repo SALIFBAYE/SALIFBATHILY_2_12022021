@@ -571,8 +571,12 @@ height: 185px;
         border-top: inherit;
         padding-top: inherit;
        
-    }   
-    
+    }
+    #search-bar
+    {
+        font-size: 39px;
+        
+    }
     #search
     {
         padding-left: 15px;
@@ -582,6 +586,7 @@ height: 185px;
     {
         display: none;
     }
+    
     .search
     {
         background: #0065FC;
@@ -589,6 +594,21 @@ height: 185px;
         border-radius: 10px;
         display: flex;
     }
+    .search-bar i
+    {
+    border: 10px solid #F2F2F2;
+    background: #F2F2F2;
+    }
+    input
+    {
+    border: 3px solid #F2F2F2;
+    height: 4.5em;
+    font-weight: bold;
+    }
+    .fa-map-marker-alt:before {
+        content: "\f3c5";
+        font-size: 30px;
+    }    
     .fa-search
     {
         color: #ffffff;
@@ -626,7 +646,6 @@ height: 185px;
   .family
   {
       display: flex;
-      justify-content: flex-end;
 
   }
   
