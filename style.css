@@ -494,6 +494,10 @@ height: 185px;
     overflow-x: hidden;
 
     }
+    h3
+    {
+        font-size: 1.1em;
+    }
     
 
     .container-link-reverse{
@@ -646,6 +650,8 @@ height: 185px;
   .family
   {
       display: flex;
+      margin-left: 199px;
+      margin-top: -54px;
 
   }
   
@@ -653,7 +659,14 @@ height: 185px;
   {
       margin: 10px;
   }
-  
+  .content-aside img
+  {
+    width: 7em;
+    height: 162px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+  }
   .content-rooms figure
   {
       height: 220px;
